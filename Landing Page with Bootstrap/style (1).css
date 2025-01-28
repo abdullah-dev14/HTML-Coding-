@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.navbar{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-color: navy;
+    justify-content: center;
+    align-items: center;
+}
+
+.contant{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+.contant h1{
+    font-size: 60px;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.about-contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left{
+width: 600px;
+height: 300px;
+background-color: lightgray;
+margin: 5px;
+}
+
+.about-right{
+    width: 600px;
+    height: 300px;
+    background-color: lightgray;
+    margin: 5px;
+}

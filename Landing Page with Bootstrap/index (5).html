@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="id1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quidem rem voluptatum praesentium enim nobis officia, suscipit beatae consequatur repellat! Aliquid totam magni nihil fugiat soluta aperiam earum beatae porro!
+        Temporibus adipisci fugiat magnam, minima excepturi eveniet quisquam pariatur minus provident ex voluptas delectus laborum quos hic possimus, expedita in incidunt? Veniam aspernatur adipisci nam itaque quaerat ipsam distinctio hic.
+        Quaerat at rem sed cumque sequi perferendis tempore ipsam iusto quasi eaque id aliquid, similique iste sapiente vitae quidem provident magni quos expedita earum! Qui tenetur consectetur quos excepturi quod.
+       
+    </p>
+</body>
+<script src="jquery.js"></script>
+<script>
+    $(document).ready(function(){
+console.log("hello world");
+$('#id1').click(function(){
+console.log("here we perform click");
+
+
+$(this).css("background-color","red");
+
+
+
+});
+
+$("#id1").hover(function(){
+  $(this).css("background-color", "yellow");
+  
+});        
+    }
+    )
+</script>
+</html>
